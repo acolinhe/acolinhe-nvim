@@ -51,14 +51,10 @@ Here's a brief overview of the important files and directories in this config:
 
    This command will use the built-in `packer.nvim` to install and set up all the plugins listed in the configuration.
 
-### Post-Installation Steps
-
-- For using GitHub Copilot, you might need to set up authentication according to the [copilot.vim](./pack/github/start/copilot.vim/README.md) documentation.
 
 ## 📜 Features
 
 - **Plugin Management**: Using `packer.nvim` for lightweight and fast plugin management.
-- **GitHub Copilot Integration**: Use GitHub Copilot right from your Neovim editor.
 - **Custom Settings**: Various custom settings and key mappings for a personalized experience. Check out the `lua/amanor` directory for details.
 
 ## 📚 Documentation
