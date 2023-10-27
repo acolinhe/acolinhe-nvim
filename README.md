@@ -1,7 +1,3 @@
-Sure! Below is a sample README for your vim configuration:
-
----
-
 # Anthony's Neovim Configuration
 
 Welcome to my personal Neovim configuration!
