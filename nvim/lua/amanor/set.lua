@@ -5,6 +5,8 @@ vim.api.nvim_set_keymap('n', '<C-l>', '<C-w>l', { noremap = true, silent = true 
 vim.api.nvim_set_keymap('n', '<C-h>', '<C-w>h', { noremap = true, silent = true })
 vim.opt.nu = true
 vim.opt.relativenumber = true
+vim.o.clipboard = "unnamedplus"
+
 
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4

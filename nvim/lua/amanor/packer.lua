@@ -15,8 +15,16 @@ return require('packer').startup(function(use)
   
   }
 
-  use { "catppuccin/nvim", as = "catppuccin" }
+  use({
+    'projekt0n/github-nvim-theme',
+    config = function()
+      require('github-theme').setup({
+      -- ...
+      })
 
+    vim.cmd('colorscheme github_dark')
+  end
+})
   use ('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use ('nvim-treesitter/playground')
   use ('mbbill/undotree')

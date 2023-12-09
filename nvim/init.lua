@@ -1,6 +1,6 @@
 require("amanor")
 require('amanor.packer')
-vim.cmd.colorscheme "catppuccin"
+vim.cmd.colorscheme "github_dark"
 vim.cmd('silent !source ~/.zshrc')
 vim.cmd [[packadd copilot.vim]]
 
