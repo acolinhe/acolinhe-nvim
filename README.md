@@ -30,7 +30,7 @@ Here's a brief overview of the important files and directories in this config:
 1. Clone this repository to your Neovim configuration directory. Typically, this is `~/.config/nvim`:
 
    ```sh
-   git clone https://github.com/<your-username>/nvim-config ~/.config/nvim
+   git clone https://github.com/acolinhe/nvim-config ~/.config/nvim
    ```
 
 2. Open Neovim:
